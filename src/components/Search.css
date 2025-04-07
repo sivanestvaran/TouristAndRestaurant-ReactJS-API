@@ -1,0 +1,86 @@
+.body{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.box{
+   
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardinput{
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.2) ;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 30px;
+}
+
+input{
+    padding: 20px;
+}
+
+label{
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+  }
+
+  .restaurant-layout{
+
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .restaurant-list{
+    background-color: rgba(255, 255, 255, 0.2) ;
+    height: 800px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .card-body .card-link{
+    display: block;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
